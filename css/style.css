@@ -156,12 +156,7 @@ nav{
 .section-1{
     position: relative;
 }
-/* .bg-header{
-    margin: 0 auto;
-    position: absolute;
-    top: 430px;
-    z-index: 999;
-} */
+
 
 
 
@@ -533,7 +528,7 @@ footer{
         padding-top: .6rem;
     }
     .section-6 h2.Press{
-        
+        margin-top: 2rem;
     }
    
 
@@ -557,9 +552,9 @@ footer{
 
 
 
-@media (min-width: 786px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 
-    /* .section-1 h4{
+    .section-1 h4{
         font-size: .8rem;
         line-height: 15pt;
     }
@@ -569,7 +564,11 @@ footer{
     }
     .section-1{
         position: relative;
-    } */
+    }
+
+    .section-5{
+        margin-top: 2rem;
+    }
 
     
     .section-52 .number-grid{
@@ -595,6 +594,9 @@ footer{
     }
 
 
+    .section-6 .Press{
+        margin-top: 2rem;
+    }
     .section-8 .img-list-grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -604,7 +606,7 @@ footer{
         font-size: 1.2rem;
     }
 
-
+    
     footer p{
         line-height: 18pt;
     }
