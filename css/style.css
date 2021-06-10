@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	/* list-style: none; */
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/************************* navbar *********************************************/
+
+nav{
+    width: 100%;
+}
+.navbar-top{
+    background: #115d5e;
+}
+.navbar a{
+    color: white;
+    font-size: 1rem;
+    transition: .2s;
+}
+.navbar a:hover{
+    color: #cccbcb;
+	text-decoration: none;
+}
+
+
+/************ barrier-navbar **********/
+.nav-barrier{
+    position: relative;
+}
+.nav-barrier::before{
+    position: absolute;
+	content: "";
+    top: 5px;
+    left: 65px;
+    height: 15px;
+    border-left: 2px solid white;
+}
+.nav-barrierr{
+    position: relative;
+}
+.nav-barrierr::before{
+    position: absolute;
+	content: "";
+    top: 7.5px;
+    left: 105px;
+    height: 15px;
+    border-left: 2px solid white;
+}
+.nav-barrierrr{
+    position: relative;
+}
+.nav-barrierrr::before{
+    position: absolute;
+	content: "";
+    top: 7.5px;
+    left: 148px;
+    height: 15px;
+    border-left: 2px solid white;
+}
+.nav-barr{
+    position: relative;
+}
+.nav-barr::before{
+    position: absolute;
+	content: "";
+    top: 7.5px;
+    left: 82px;
+    height: 15px;
+    border-left: 2px solid white;
+}
+/************* end barrier-navbar ************/
+
+.navbar p{
+    color: white;
+}
+.navbar button.button-sall{
+	font-size: .9rem;
+	font-weight: bold;
+	background: #ffa800;
+	border: none;
+	color: #115d5e;
+	border-radius: 20px;
+}
+
+
+
+
+
+/************** section-01 img-slide ***********************************/
+
+
+.section-1 h4{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    color: #797774;
+    letter-spacing: .7px;
+    line-height: 22pt;
+}
+.section-1 button{
+    background-color: #ff6400;
+    border: none;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+.section-1{
+    position: relative;
+}
+/* .bg-header{
+    margin: 0 auto;
+    position: absolute;
+    top: 430px;
+    z-index: 999;
+} */
+
+
+
+
+/************** section-2 SOLUTIONS & CORE SERVICES *********************************/
+
+
+.section-2 h2{
+    color: #115d5e;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5rem;
+
+}
+.section-2 p{
+    color: #115d5e;
+    font-size: .9rem;
+    letter-spacing: .8px;
+    line-height: 15pt;
+}
+.section-2 img{
+    width: 45px;
+    height: 50px;
+    margin-bottom: .5rem;
+}
+.section-2 .icon-item{
+    background-color: #f3f3f3;
+    border-radius: 20px;
+}
+.section-2 h6{
+    font-size: .9rem;
+    font-weight: bold;
+    color: #909090;
+}
+.icon-item-2{
+    background-color: #115d5e;
+    border-radius: 20px;
+}
+.icon-text-2 i{
+    color: white;
+    font-size: 3rem;
+    align-items: center;
+
+}
+.icon-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1rem;
+}
+
+
+
+/******************* section-3 VIRTUAL REALITY AUGMENTED REALITY****************************************/
+
+
+.section-3 h3{
+    color: #115d5e;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.section-3 p{
+    color: #115d5e;
+    font-size: 1rem;
+    letter-spacing: .8px;
+    line-height: 15pt;
+}
+p.text-left{
+    color: #909090;
+    letter-spacing: .8px;
+    line-height: 15pt;
+}
+ul.text-left li{
+    color: #909090;
+    letter-spacing: .8px;
+    line-height: 15pt;
+}
+
+
+
+/******************* section-5 APP FEATURES ******************************/
+
+
+.section-5 h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.section-5 h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fae221;
+}
+.section-5 h4{
+    font-weight: bold;
+    letter-spacing: .8px;
+    line-height: 15pt;
+}
+.section-5 p{
+    font-size: .8rem;
+    color: #cac8cc;
+    letter-spacing: .8px;
+    line-height: 13pt;
+}
+
+
+
+/*************** section-52 number-grid 3 img **********************************/
+
+
+.section-52 .img-Verified{
+    height: 167px;
+    background: url(../img/01.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1.5px solid #115d5e;
+}
+
+.section-52 h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #f39b0e;
+    display: flex;
+    justify-content: flex-end;
+}
+.section-52 h3{
+    font-size: 1.4rem;
+    color: #115d5e;
+    font-weight: 500;
+    padding-top: 3px;
+    line-height: 18pt;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-52 .img-cpe{
+    height: 167px;
+    background: url(../img/02.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1.5px solid #115d5e;
+}
+.section-52 .img-Partnerships{
+    height: 167px;
+    background: url(../img/03.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1.5px solid #115d5e;
+}
+
+.section-52 .number-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+
+/************** section-6 Today on MLT & Press release **********************************/
+
+
+.section-6 h2{
+    background: #115d5e;
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: .5rem;
+    letter-spacing: .6px;
+    line-height: 15pt;
+}
+.section-6 h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333132;
+    letter-spacing: .8px;
+    line-height: 18pt;
+}
+.section-6 p{
+    font-size: .7rem;
+    color: #333132;
+    letter-spacing: .9px;
+    line-height: 14pt;
+}
+.data-time{
+    position: relative;
+}
+.data-time::before{
+    position: absolute;
+	content: "";
+    top: 6px;
+    left: 149px;
+    height: 12px;
+    border-left: 1px solid #ccc;
+}
+.data-timee{
+    position: relative;
+}
+.data-timee::before{
+    position: absolute;
+	content: "";
+    top: 4px;
+    left: 125px;
+    height: 10px;
+    border-left: 1px solid #ccc;
+}
+.data-timeee{
+    position: relative;
+}
+.data-timeee::before{
+    position: absolute;
+	content: "";
+    top: 6px;
+    left: 148px;
+    height: 12px;
+    border-left: 1px solid #ccc;
+}
+.data-timeeee{
+    position: relative;
+}
+.data-timeeee::before{
+    position: absolute;
+	content: "";
+    top: 4px;
+    left: 125px;
+    height: 10px;
+    border-left: 1px solid #ccc;
+}
+
+.section-6 h4{
+    font-size: .9rem;
+    letter-spacing: .8px;
+    line-height: 13pt;
+}
+.section-6 h6{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .7px;
+    line-height: 15pt;
+}
+
+.section-6 button{
+    background: #115d5e;
+    border: none;
+    transition: .2s;
+}
+.section-6 button:hover{
+    background: #1d8b8d;
+}
+.section-6 button a:hover{
+    text-decoration: none;
+}
+.section-6 button a{
+    color: white;
+}
+
+
+
+
+/************** section-8 img-3***************************/
+
+
+
+.section-8 .img-list-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+.section-8 .img-list-text-1{
+    background-image: url(../img/pic-b-1.png);
+    height: 515px;
+}
+.section-8 .img-list-text-2{
+    background-image: url(../img/pic-b-2.png);
+    height: 515px;
+}
+.section-8 .img-list-text-3{
+    background-image: url(../img/pic-b-3.png);
+    height: 515px;
+}
+.section-8 .img-list-item p{
+    font-size: 2rem;
+    color: white;
+}
+
+
+/*************** section-9 support **************************/
+
+.section-9 .support-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: .6rem;
+}
+.section-9 .support-grid .support-item {
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+/*************** section-10 footer list **************************/
+
+
+.section-10 ul{
+    list-style: none;
+    letter-spacing: .5px;
+    line-height: 20pt;
+}
+
+
+
+
+/***************************** footer ****************************/
+
+
+footer{
+    background: #115d5e;
+}
+
+
+/**************************** reposive *******************************/
+
+
+@media (max-width: 567px){
+    .container{
+        width: 98% !important;
+    }
+
+
+    .section-1{
+        position: relative;
+    }
+    
+
+    .section-2 h2{
+        font-size: 1.7rem;
+    }
+    .section-2 p{
+        font-size: .9rem;
+    }
+    .section-2 img{
+        width: 35px;
+        height: 40px;
+    }
+    .section-2 h6{
+        margin-top: -.4rem;
+        font-size: .8rem;
+        letter-spacing: .5px;
+        line-height: 12pt;
+    }
+
+
+    .section-3 img{
+       
+    }
+    .section-3 h3{
+        font-size: 1.7rem;
+    }
+    .section-3 p{
+        font-size: .9rem;
+    }
+    .section-3 ul li {
+        font-size: .9rem;
+    }
+
+
+    .section-5 {
+        margin-top: 2rem;
+    }
+
+    .section-6 h3{
+        padding-top: .6rem;
+    }
+    .section-6 h2.Press{
+        
+    }
+   
+
+    .section-9 .support-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: .6rem;
+    }
+
+
+    .section-10 img{
+        padding-top: 3rem;
+    }
+
+    footer p{
+        line-height: 18pt;
+    }
+}
+
+
+
+
+
+@media (min-width: 786px) {
+
+    /* .section-1 h4{
+        font-size: .8rem;
+        line-height: 15pt;
+    }
+    .section-1 button{
+        margin-top: .8rem;
+        font-size: .6rem;
+    }
+    .section-1{
+        position: relative;
+    } */
+
+    
+    .section-52 .number-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 1rem;
+    }
+    .section-52 h1{
+        font-size: 2.5rem;
+    }
+    .section-52 h3{
+        font-size: 1rem;
+        line-height: 15pt;
+    }
+    .section-52 .img-Verified{
+        height: 145px;
+    }
+    .section-52 .img-cpe{
+        height: 145px;
+    }
+    .section-52 .img-Partnerships{
+        height: 145px;
+    }
+
+
+    .section-8 .img-list-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 1rem;
+    }
+    .section-8 p{
+        font-size: 1.2rem;
+    }
+
+
+    footer p{
+        line-height: 18pt;
+    }
+
+}
+
+
